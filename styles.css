@@ -1,0 +1,81 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+}
+
+.form {
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    margin: 250px auto;
+    border-bottom: 15px solid #f07800;
+}
+
+#form-title {
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    background-color: #f07800;
+    padding: 20px 40px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.3em;
+    margin-bottom: 55px;
+    color: white;
+}
+
+#email, #password {
+    width: 250px;
+    height: 40px;
+    margin-left: 125px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid #f07800;
+    padding: 12px 40px;
+}
+
+#email {
+    background: url(./img/usuario.png) 5px no-repeat;
+}
+
+#password {
+    background: url(./img/contrasena.png) 5px no-repeat;
+}
+
+#email:focus, #password:focus {
+    background: none;
+    padding: 12px 10px;
+    transition: padding .4s;
+}
+
+#submit {
+    margin-left: 125px;
+    border: none;
+    padding: 15px 40px;
+    background-color: #f07800;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 15px;
+    color: white;
+    font-family: monospace;
+    font-size: 1.1em;
+}
+
+#submit:hover {
+    background-color: darkorange;
+}
+
+a {
+    display: inline-block;
+    margin-left: 125px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #f07800;
+}
+
+a:hover {
+    color: darkorange;
+}
